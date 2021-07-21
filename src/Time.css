@@ -1,0 +1,27 @@
+
+/* body{
+    background-color: black;
+} */
+.mrngMsg{
+    font-family:'Caveat', cursive;
+    margin: 0px;
+    padding: 10px;
+  }
+  .box{
+    text-align: center;
+    margin: 200px auto;
+    background: white;
+    width: 500px;
+    border: 5px solid rgb(3, 160, 255);
+    box-shadow: 0px 0px 50px rgb(0, 229, 247);
+  }
+  .timing{
+    margin: 10px auto;
+    width: 100px;
+    border: 2px solid rgb(0, 255, 153);
+    background: black;
+    font-size:20px;
+    padding: 10px;
+    color:rgb(0, 255, 153);
+  }
+  
