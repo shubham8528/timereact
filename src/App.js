@@ -6,14 +6,15 @@ function App() {
   let time = new Date();
   time = time.getHours();
   let messages = "";
-  let times = new Date();
-  times = times.toLocaleTimeString();
+ 
 
 
-  let interval = setInterval(function() {
-    times=new Date();
-    times=times.toLocaleTimeString();
-  console.log(times) 
+  setInterval(()=>{
+    let times = new Date();
+        times = times.toLocaleTimeString();
+   var x = document.getElementsByClassName('timing');
+   x[0].innerHTML=times;
+  console.log(times)
   },1000)
 
 
@@ -32,7 +33,7 @@ function App() {
     <>
       <div className='box'>
         <h1 className='mrngMsg'>heyy Shubham :{messages}</h1>
-        <p className='timing'></p>
+        <div className='timing'></div>
       </div>
     </>
   );
